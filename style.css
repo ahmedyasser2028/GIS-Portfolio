@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Yasser | GIS Developer & AI Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0b0f1a] text-slate-300">
+
+    <nav class="fixed top-0 w-full z-50 bg-[#0b0f1a]/95 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-black text-white tracking-tighter">AY.<span class="text-blue-400 font-extrabold">GIS</span></div>
+            <div class="hidden md:flex space-x-10 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
+                <a href="#home" class="hover:text-blue-400 transition">Home</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Portfolio</a>
+                <a href="#certs" class="hover:text-blue-400 transition">Certifications</a>
+            </div>
+            <a href="mailto:Ahmed.yasser2028@gmail.com" class="bg-blue-600 text-white px-8 py-3 rounded-2xl text-xs font-black hover:bg-blue-500 transition shadow-xl border border-blue-400/20 text-center tracking-widest uppercase">Hire Me</a>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center px-6 pt-20">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="space-y-8">
+                <h2 class="text-blue-400 font-mono tracking-[0.4em] uppercase text-sm bg-blue-500/10 px-4 py-2 rounded-full inline-block">GIS Developer & AI Specialist</h2>
+                <h1 class="text-6xl md:text-8xl font-black text-white leading-[0.9] uppercase tracking-tighter">
+                    Ahmed<br><span class="gradient-text text-6xl md:text-8xl">Yasser</span>
+                </h1>
+                <p class="text-xl text-slate-400 max-w-lg leading-relaxed font-light italic border-l-2 border-blue-500 pl-6">
+                    "Maps are dynamic representations of a changing world."
+                </p>
+                <div class="flex gap-6 items-center">
+                    <a href="https://github.com/ahmedyasser2028" target="_blank" class="bg-slate-800 px-8 py-4 rounded-2xl font-bold hover:bg-slate-700 transition text-white shadow-lg">GitHub Profile</a>
+                    <a href="#projects" class="text-blue-400 font-bold hover:text-white transition-colors">Explore Portfolio &rarr;</a>
+                </div>
+            </div>
+            <div class="flex justify-center relative">
+                <div class="absolute inset-0 bg-blue-500/10 blur-[150px] rounded-full"></div>
+                <div class="w-80 h-80 bg-gradient-to-br from-blue-600 via-indigo-600 to-emerald-500 rounded-[3.5rem] flex items-center justify-center text-8xl font-black text-white rotate-3 shadow-2xl relative z-10 border-4 border-white/10">AY</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-32 bg-[#0d1117] px-6 text-center">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-24">
+                <h2 class="text-5xl font-black text-white mb-6 uppercase tracking-tighter">Project Showcase</h2>
+                <div class="w-24 h-1 bg-blue-500 mx-auto rounded-full"></div>
+            </div>
+            <div id="projectsContainer" class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 text-left"></div>
+        </div>
+    </section>
+
+    <section id="certs" class="py-32 bg-[#0b0f1a] px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-5xl font-black text-white text-center mb-24 uppercase tracking-tighter">Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12" id="certContainer"></div>
+        </div>
+    </section>
+
+    <footer class="py-20 bg-[#0b0f1a] border-t border-slate-800/50 text-center text-slate-600 px-6 uppercase text-[10px] tracking-[0.6em]">
+        © 2026 Ahmed Yasser Ezzat | Built with Passion & Precision
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
